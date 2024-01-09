@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show/hide Password</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css" />
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+
+    <div class="login_main">
+        <div class="login_heading">
+            <h1><span>Hide/Show Password</span> using Eye icon in HTML and JavaScript</h1>
+        </div>
+
+        <form class="login_form">
+            <div class="login_input-elmt">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="eg: rapidquest12" autocomplete="off" required>
+            </div>
+            <div class="login_input-elmt">
+                <label for="password">Password</label>
+                <div class="login_password">
+                    <input type="password" id="password" name="password" placeholder="eg: 12*&rapid" required>
+                    <i onclick="showLoginPassword()" class="ri-eye-line" id="login_eye-toggle"></i>
+                </div>
+            </div>
+            <div class="login_input-elmt">
+                <button type="submit">Login</button>
+            </div>   
+        </form>
+    </div>
+
+    <footer>
+        <span>Designed & Created by </span><a href="https://github.com/sachincse54" target="_blank">Sachin Kumar</a>
+    </footer>
+   
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
